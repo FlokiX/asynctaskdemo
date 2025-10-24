@@ -1,0 +1,25 @@
+<resources>
+    <!-- Base application theme -->
+    <style name="Theme.RedApp" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
+        <item name="colorPrimary">@color/primary_red</item>
+        <item name="colorPrimaryVariant">@color/primary_dark_red</item>
+        <item name="colorOnPrimary">@color/text_white</item>
+        <item name="colorSecondary">@color/accent_red</item>
+        <item name="colorSecondaryVariant">@color/primary_dark_red</item>
+        <item name="colorOnSecondary">@color/text_white</item>
+        <item name="android:statusBarColor">@color/primary_dark_red</item>
+    </style>
+
+    <!-- Style for buttons -->
+    <style name="RedButton" parent="Widget.Material3.Button">
+        <item name="backgroundTint">@color/primary_red</item>
+        <item name="android:textColor">@color/text_white</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+
+    <style name="OutlineButton" parent="Widget.Material3.Button.OutlinedButton">
+        <item name="strokeColor">@color/primary_red</item>
+        <item name="android:textColor">@color/primary_red</item>
+        <item name="cornerRadius">12dp</item>
+    </style>
+</resources>
