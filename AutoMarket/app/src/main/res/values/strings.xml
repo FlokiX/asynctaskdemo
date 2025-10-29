@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">AutoMarket</string>
+    <string name="year_from">Year From</string>
+    <string name="year_to">Year To</string>
+    <string name="cost_from">Cost From</string>
+    <string name="cost_to">Cost To</string>
+</resources>
